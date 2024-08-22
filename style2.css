@@ -1,0 +1,55 @@
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(168, 166, 166) 3px solid;
+    border-radius: 5%;
+    
+}
+
+.foto{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 27% ;
+    border: black 3px solid;
+}
+
+h1{
+    margin: 5px auto;
+    margin-left: 22%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+p{
+    margin: 10px;
+    margin-left: 28%;
+    color: gray;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 42%);
+    border-style: ridge;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    width: 80px;
+    height: 80px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
