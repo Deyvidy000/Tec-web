@@ -1,74 +1,71 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-.header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.two {
-    height: 100vh;
-    background-image: url('../img/c1.jpg.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header{
+    background-color: blue;
     color: white;
-}
-
-.three {
-    height: 500px;
-    background-color: rgb(209, 195, 195);
+    font-size: 14px;
+    padding: 20px;
     text-align: center;
-    padding: 50px 20px;
 }
 
-.four {
-    height: 100vh;
-    background-image: url('../img/c2.jpg.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.sec1-img{
+    width: 30%;
+    display: inline-block;
 }
 
-.five {
-    height: 500px;
-    background-color: rgb(207, 207, 207);
+.sec1-img img{
+    width: 100%;
+    display: inline-block;
+}
+
+.sec1-text{
+    width: 50%;
+    display: inline-block;
+    margin: 30px;
+    vertical-align: top;
+}
+
+.sec1-text p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+.sec2 h1{
+    font-size: 20px;
     text-align: center;
-    padding: 50px 20px;
 }
 
-.six {
-    height: 100vh;
-    background-image: url('../img/c3.jpg.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.cards{
+    width: 30%;
+    height: 250px;
+    background-color: gray;
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
 }
 
-.seven {
-    height: 500px;
-    background-color: rgb(207, 207, 207);
+.cards h1, p{
+    padding: 10px 20ppx;
+}
+
+.sec3 img{
+    display: block;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.sec3 img img{
+    width: 100%;
+}
+
+.sec3-text{
+    width: 90%;
+    font-size: 18px;
+    margin: 20px;
     text-align: center;
-    padding: 50px 20px;
 }
+
